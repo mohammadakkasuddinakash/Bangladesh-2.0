@@ -15,6 +15,7 @@
     font-weight: 700;
     color: #006A50;
 }
+
 .title-h4{
     font-size: 30px;
     font-weight: bold;
@@ -25,10 +26,22 @@
     font-size: 20px;
     font-weight: 400;
 }
+.section-header{
+    color: #0E0E0E;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.description-title{
+    color: #0E0E0E;
+    opacity: 80%;
+    font-size: 20px;
+    font-weight: bold;
+}
 .description{
     color: #0E0E0E;
     opacity: 80%;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
 }
 /* Nav bar section styles */
@@ -61,4 +74,40 @@
 }
 .hero-img-container img{
     width: 100%;
+}
+
+/* Main Section Styles */
+.main-section{
+    background-color: #F1F1F3;
+    opacity: 80%;
+}
+/* Pillars Section styles */
+.pillars-section{
+    margin: 40px 130px;
+    padding: 40px;
+
+}
+.pillars-section h1{
+    padding: 30px 0;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 15px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    border: 1px solid #0e0e0e26;
+    box-shadow:black;
+}
+.card img{
+    width: 30px;
+    height: 30px;
+
 }
