@@ -14,6 +14,7 @@
     font-size: 15px;
     font-weight: 700;
     color: #006A50;
+    cursor: pointer;
 }
 
 .title-h4{
@@ -53,7 +54,7 @@
 }
 /* Banner section styles */
 .banner-section{
-    margin: 30px 120px;  
+    margin: 40px 130px;  
 }
 .Banner-title{
     font-size: 40px;
@@ -84,7 +85,7 @@
 /* Pillars Section styles */
 .pillars-section{
     margin: 40px 130px;
-    padding: 40px;
+    
 
 }
 .pillars-section h1{
@@ -109,5 +110,62 @@
 .card img{
     width: 30px;
     height: 30px;
+
+}
+/* Vision Section Styles */
+.vision-section{
+    margin: 40px 130px;
+    
+}
+.vision-section .des-gap{
+    margin: 20px 0;
+}
+.vision-card-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.vision-card{
+    padding: 30px;
+    border-radius: 16px;
+
+}
+.vision-card p{
+    margin: 20px 0;
+}
+/* Card-1 */
+.v-c1{
+    background: #5490f533;
+    border-color: #5490f5FF;
+}
+.v-c1 button{
+    background: #5490F5;
+    color: #FFFFFF;
+    border: none;
+}
+/* Card-2 */
+.v-c2{
+    background: #c6e4d6FF;
+    border-color: #09a15cFF;
+}
+.v-c2 button{
+    background: #09a15cFF;
+    color: #FFFFFF;
+    border: none;
+}
+/* Card-3 */
+.v-c3{
+    background: #f7ebcfFF;
+    border-color: #ffc239FF;
+}
+.v-c3 button{
+    background: #ffc239FF;
+    color: #FFFFFF;
+    border: none;
+}
+
+.vision-card img{
+    height: 30px;
+    width: 30px;
 
 }
