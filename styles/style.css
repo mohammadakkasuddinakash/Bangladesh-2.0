@@ -39,6 +39,7 @@
     color: #0E0E0E;
     font-size: 30px;
     font-weight: bold;
+    margin-bottom: 20px;
 
 }
 .description-title{
@@ -46,6 +47,7 @@
     opacity: 80%;
     font-size: 20px;
     font-weight: bold;
+    
 }
 .description{
     color: #0E0E0E;
@@ -206,4 +208,39 @@ body{
     
     
 }
+/* News section Style */
+.news-section{
+    margin: 40px 130px;
 
+}
+.news-card{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: stretch;
+    margin: 30px 0;
+    border-radius: 18px;
+    background: #ffffffFF;
+    padding: 35px;
+
+}
+.news-card .news-img{
+    border-radius: 18px;
+}
+.news-card-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+
+}
+.news-card-right button{
+    margin-top: auto;
+    width: fit-content;
+    background: #006a50FF;
+    color: #FFFFFF;
+}
+.news-card-right img{
+    width: fit-content;
+    
+}
