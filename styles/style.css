@@ -302,3 +302,20 @@ body{
     justify-content: center;
     margin: 20px auto;
 }
+/* Footer Section Styles */
+.foot-section{
+    margin: 0;
+    text-align: center;
+    padding: 40px 0;
+    background: #ffffffFF;
+}
+.foot-section hr{
+    margin: 20px 170px;
+    color: 0E0E0E;
+    opacity: 30%;
+}
+.foot-icon{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
