@@ -274,4 +274,31 @@ body{
     text-align: center;
     border: #0e0e0e26 1px solid;
 }
-
+/* Subscribe Section Style */
+.subscribe-section{
+    margin: 40px 130px;
+    padding: 80px 200px;
+    background: #c6e4d6;
+    border-radius: 18px;
+    text-align: center;
+}
+.subscribe-section input{
+    border-radius: 8px 0 0 8px ;
+    padding: 12px 25px;
+    font-size: 15px;
+    border: none;
+    margin-right: 0;
+    width: 70%;
+}
+.subscribe-section button{
+    margin-top: auto;
+    width: fit-content;
+    background: #006a50FF;
+    color: #FFFFFF;
+    border-radius: 0 8px 8px 0;
+}
+.input-field{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
